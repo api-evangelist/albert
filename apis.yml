@@ -1,19 +1,46 @@
 aid: albert
 name: Albert
-description: 'Albert is a company surfaced as a portfolio company of index-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: ai-ml. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Albert Invent (Albert Invent Corp.) builds an AI-native operating system
+  for chemistry and materials R&D, giving scientists a unified platform for electronic
+  lab notebooks, chemical drawing, experiment and formulation management, and machine-learning
+  models trained on millions of molecular structures. The platform centralizes fragmented
+  R&D data and workflows for teams inventing new materials across adhesives, coatings,
+  batteries, and life sciences, with role-based access control and regulatory compliance
+  coverage across hundreds of thousands of chemical substances. Albert Invent does
+  not currently publish a public developer API or documentation (its docs surface is
+  password-protected); this profile captures the company''s public web, product, legal,
+  and domain-security surface as a lead awaiting a public API. Headquartered in Oakland,
+  California.'
 url: https://raw.githubusercontent.com/api-evangelist/albert/refs/heads/main/apis.yml
 x-type: company
 x-source: index-ventures-portfolio
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://cdn.prod.website-files.com/68f0bb999f20ff63f3bd6be0/6914a850143ea48beadd5c53_svgviewer-output%20(2).svg
 tags:
 - Company
 - Ai Ml
+- Chemistry
+- Materials Science
+- R&D
+- Electronic Lab Notebook
+- Machine Learning
+- Life Sciences
+- Formulation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,28 @@ maintainers:
 common:
 - type: Website
   url: https://www.albertinvent.com/
+- type: Blog
+  url: https://www.albertinvent.com/blog
+- type: SignUp
+  url: https://app.albertinvent.com/
+- type: Login
+  url: https://app.albertinvent.com/
+- type: Support
+  url: mailto:support@albertinvent.com
+- type: TermsOfService
+  url: https://www.albertinvent.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.albertinvent.com/privacy-policy
+- type: CaseStudies
+  url: https://www.albertinvent.com/case-studies
+- type: Careers
+  url: https://www.albertinvent.com/careers
+- type: Press
+  url: https://www.albertinvent.com/press
+- type: DomainSecurity
+  url: security/albert-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
